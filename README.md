@@ -42,3 +42,38 @@ week-1-portfolio/
 ## 👨‍💻 Author
 Ashutosh Prajapati
 BCA Student | Web Development Beginner/ Android developer
+
+
+
+week 2
+# Styled Portfolio Website - Week 2 (CSS)
+
+## Project Overview
+This project enhances the HTML portfolio by adding CSS styling, layout design, and responsive features.
+
+## Technologies Used
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Media Queries
+
+## Features
+- External stylesheet
+- Custom color scheme
+- Hover effects
+- Responsive layout
+- Styled forms and buttons
+- Mobile-friendly design
+
+## Concepts Learned
+- CSS selectors (element, class, id, pseudo-class)
+- Box model
+- Flexbox and Grid layout
+- Responsive design using media queries
+- CSS variables
+
+## Testing
+- Tested on Chrome and Edge
+- Checked mobile view using DevTools
+- Verified hover effects

@@ -4,97 +4,60 @@
     <meta charset="UTF-8">
     <title>Ashutosh Prajapati | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Ashutosh Prajapati</h1>
-        <p>Web Development Beginner | BCA Student</p>
+<header>
+    <h1>Ashutosh Prajapati</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-        <nav>
-            <a href="#about">About</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+<main>
 
-    <hr>
+<section id="about" class="card">
+    <img src="i1.jpg" alt="Ashutosh Prajapati Profile" class="profile-img">
+    <div>
+        <h2>About Me</h2>
+        <p>I am a BCA student passionate about Web Development and AI.</p>
+    </div>
+</section>
 
-    <!-- About Section -->
-    <main>
+<section id="skills" class="card">
+    <h2>Skills</h2>
+    <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>Firebase</li>
+    </ul>
+</section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <img src="i1.jpg" alt="Ashutosh Prajapati Profile Picture" width="200">
-            
-            <p>
-                Hello! I am Ashutosh Prajapati, a passionate BCA student interested in 
-                Web Development, AI, and Android App Development.
-            </p>
+<section id="contact" class="card">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
 
-            <p>
-                I enjoy building projects and learning new technologies.
-                Currently, I am learning HTML as my first step toward full-stack development.
-            </p>
-        </section>
+</main>
 
-        <hr>
-
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>My Skills</h2>
-
-            <h3>Technical Skills</h3>
-            <ul>
-                <li>HTML Basics</li>
-                <li>Java Programming</li>
-                <li>Firebase Integration</li>
-                <li>Android Development</li>
-            </ul>
-
-            <h3>Soft Skills</h3>
-            <ol>
-                <li>Problem Solving</li>
-                <li>Team Collaboration</li>
-                <li>Communication</li>
-            </ol>
-        </section>
-
-        <hr>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-                <button type="submit">Send Message</button>
-            </form>
-
-            <p>
-                You can also connect with me on 
-                <a href="https://github.com/ashu15012006" target="_blank">GitHub</a>
-            </p>
-        </section>
-
-    </main>
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Ashutosh Prajapati. All Rights Reserved.</p>
-    </footer>
+<footer>
+    <p>© 2026 Ashutosh Prajapati</p>
+</footer>
 
 </body>
 </html>
