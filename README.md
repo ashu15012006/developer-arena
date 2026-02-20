@@ -77,3 +77,139 @@ This project enhances the HTML portfolio by adding CSS styling, layout design, a
 - Tested on Chrome and Edge
 - Checked mobile view using DevTools
 - Verified hover effects
+
+
+
+week 3 
+
+# 🌐 Interactive Portfolio Website – Week 3 (JavaScript)
+
+## 📌 Project Overview
+
+This project is an enhanced version of my portfolio website developed using **HTML, CSS, and JavaScript**.  
+The main goal of this project is to add interactivity and dynamic functionality using JavaScript.
+
+The website includes:
+- Responsive design
+- Dark/Light mode toggle
+- Contact form validation
+- Interactive To-Do List
+- DOM manipulation and event handling
+
+---
+
+## 🎯 Project Objectives
+
+- Understand JavaScript fundamentals
+- Implement DOM manipulation
+- Add event listeners
+- Perform form validation
+- Store user preferences using localStorage
+- Create interactive UI components
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Google Fonts
+- VS Code
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+week-3-portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+
+---
+
+## 🚀 Features Implemented
+
+### 1️⃣ Dark Mode Toggle
+- Users can switch between light and dark mode.
+- Preference is saved using localStorage.
+- Mode remains active after page refresh.
+
+### 2️⃣ Contact Form Validation
+- Email must contain '@'
+- Message must be at least 10 characters long
+- Displays error or success message dynamically
+- Prevents default form submission
+
+### 3️⃣ Interactive To-Do List
+- Users can add tasks dynamically
+- Tasks can be removed by clicking on them
+- Uses DOM manipulation and event listeners
+
+---
+
+## 🧠 JavaScript Concepts Used
+
+- Variables and data types
+- Functions
+- Event listeners (click, submit)
+- DOM manipulation
+- Conditional statements
+- localStorage
+- Prevent default behavior (event.preventDefault())
+
+---
+
+## 🧪 Testing & Validation
+
+The project was tested by:
+
+- Running in Google Chrome and Edge
+- Testing invalid and valid form inputs
+- Checking dark mode persistence after refresh
+- Adding and removing tasks
+- Inspecting console for errors
+
+All features were verified and working correctly.
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots inside screenshots/ folder and link here)
+
+- Desktop View
+- Dark Mode View
+- Form Validation Error
+- To-Do List Working
+
+---
+
+## 🏗 Setup Instructions
+
+1. Clone the repository:
+
+2. Open folder in VS Code.
+
+3. Open `index.html` in browser.
+
+4. Test interactive features.
+
+---
+
+## 🎓 Learning Outcome
+
+This project helped me understand how JavaScript makes websites interactive.  
+I learned how to manipulate the DOM, handle events, validate forms, and store data locally in the browser.
+
+This is an important milestone in my journey toward becoming a Full-Stack Web Developer 🚀
+
+---
+
+## 👨‍💻 Author
+
+Ashutosh Prajapati  
+BCA Student | Web Development Learner  
+GitHub: https://github.com/ashu15012006
