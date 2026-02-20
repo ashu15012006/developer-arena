@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Color Variables */
 :root {
     --primary: #4e73df;
     --dark: #1e1e2f;
@@ -33,23 +32,26 @@ header {
 nav a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin: 0 10px;
     transition: 0.3s;
 }
 
-/* Hover Effect */
 nav a:hover {
     color: var(--accent);
 }
 
-/* Sections */
+#darkModeToggle {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Layout */
 main {
     padding: 2rem;
     display: grid;
     gap: 2rem;
 }
 
-/* Card Layout */
 .card {
     background: white;
     padding: 2rem;
@@ -57,7 +59,6 @@ main {
     box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
 }
 
-/* About Section Flexbox */
 #about {
     display: flex;
     align-items: center;
@@ -73,7 +74,6 @@ main {
 /* Skills */
 .skill-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
     list-style: none;
 }
@@ -108,9 +108,23 @@ button {
     transition: 0.3s;
 }
 
-/* Button Hover */
 button:hover {
     background: var(--accent);
+}
+
+/* To-do */
+#taskList {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+#taskList li {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -121,11 +135,25 @@ footer {
     color: white;
 }
 
-/* Responsive Design */
+/* Dark Mode */
+.dark-mode {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .card {
+    background: #2c2c2c;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background: black;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        text-align: center;
     }
 
     #about {
@@ -134,6 +162,7 @@ footer {
     }
 
     .skill-list {
+        flex-wrap: wrap;
         justify-content: center;
     }
 }
